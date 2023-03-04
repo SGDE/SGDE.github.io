@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Current Time Example</title>
+</head>
+<body>
+  <h1>Current Time</h1>
+  <p id="time"></p>
+  <script>
+    function updateTime() {
+      var today = new Date();
+      var options = {hour: 'numeric', minute: 'numeric'};
+      var time = today.toLocaleTimeString([], options);
+      document.getElementById("time").innerHTML = time;
+    }
+    setInterval(updateTime, 1000); // update every second
+  </script>
+</body>
+</html>

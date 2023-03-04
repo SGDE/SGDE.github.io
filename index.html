@@ -9,135 +9,161 @@
 
 <!--TITLE-->
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
-<title>ItzSelenux's Folder</title>
+<title>Simple GTK Desktop Environment</title>
 </head>
 
 <!--NavBar-->
 <div inc="bar.html"></div>
 <script>includeHTML();</script>
 
-<div style="white-space: pre-wrap;" class="github"><a class="github-button" href="https://github.com/ItzSelenux" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-size="large" data-show-count="true" aria-label="Follow @ItzSelenux on GitHub">Follow @ItzSelenux</a>
-<a class="github-button" href="https://github.com/ItzSelenux/ItzSelenux.github.io/" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-icon="octicon-eye" data-size="large" aria-label="Watch ItzSelenux/ItzSelenux.github.io on GitHub">Code of this WebPage</a>
+<div style="white-space: pre-wrap;" class="github"><a class="github-button" href="https://github.com/SGDE" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-size="large" data-show-count="true" aria-label="Follow @ItzSelenux on GitHub">Follow @SGDE</a>
+<a class="github-button" href="https://github.com/SGDE/SGDE.github.io/" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-icon="octicon-eye" data-size="large" aria-label="Watch ItzSelenux/ItzSelenux.github.io on GitHub">Code of this Page</a>
    </div>
 
 <!--WebPage Content-->
   <center>
 
-    <br><br><br><br><br>
-    <img width="79%" src="res/favicons/banner.png">
-    <h1><span style="color: #8fa876">I</span>tz<span style="color: #8fa876">S</span>elenux's 
-       <span style="color: #8fa876">G</span>ithub webpage </h1>
-       <hr color=#ffffff size="2.6" width="66%"><br>
-    <h2><span style="color: #8fa876">M</span>y <span style="color: #8fa876">P</span>rojects</h2>
+<br>
+    <img width="46%" height="1%" src="res/favicons/banner.png">
 
+       <hr color=#ffffff size="2.6" width="66%"><br>
+    <h2><span style="color: #8fa876">C</span>omponents</h2>
+    
+     <p id="time"></p>
+     
+  <script>
+    function updateTime() {
+      var today = new Date();
+      var options = {hour: 'numeric', minute: 'numeric'};
+      var time = today.toLocaleTimeString([], options);
+      document.getElementById("time").innerHTML = time;
+    }
+    setInterval(updateTime, 1000); // update every second
+    
+    
+  </script>
     <table border="1" style="max-width:66%;border-collapse:collapse;">
         
 <!---->
 <tr>
     <td>
         <center>
-        <a href="https://ItzSelenux.github.io/ilustraciones-icon-theme"><br>
-        <img width="166px" src="res/projects/ilustraciones-icon-theme.png"> </a>
-        <figcaption>Ilustraciones icon theme</figcaption>
+        <a href="https://sgde.github.io/selefiles"><br>
+        <img width="90px" src="res/projects/files.png"> </a>
+        <figcaption>SeleFiles (Not Available yet)</figcaption>
         </center>
     </td>
     <td>
-        <h2>Flat icon theme inspired on <span style="color: #8fa876">Pixelitos</span></h2>
+        <h2>File Manager</h2>
     </td>
 </tr>
 <!---->
 <tr>
     <td>
         <center>
-        <a href="https://ItzSelenux.github.io/pixelitos-icon-theme"><br>
-        <img width="166px" src="res/projects/pixelitos-icon-theme.png"> </a>
-        <figcaption>Pixelitos icon theme</figcaption>
+        <a href="https://ItzSelenux.github.io/selidesktop"><br>
+        <img width="90px" src="res/projects/desktop.png"> </a>
+        <figcaption>SeliDesktop (Not Available yet)</figcaption>
         </center>
     </td>
     <td>
-        <h2>16-bit style GTK icon theme</h2>
+        <h2>Desktop icons / wallpaper manager</h2>
     </td>
 </tr>
 <!---->
 <tr>
     <td>
         <center>
-        <a href="https://ItzSelenux.github.io/micro-vim"><br>
-        <img width="166px" src="res/projects/micro-vim.svg"></a>
-        <figcaption>MicroVim</figcaption>
+        <a href="https://ItzSelenux.github.io/selishot"><br>
+        <img width="90px" src="res/projects/sshot.png"></a>
+        <figcaption>selishot(Not Available yet)</figcaption>
         <center>
     </td>
     <td>
-     <h2>Vim/NeoVim configuration to get Micro editor experience</h2>    
-    </td>
-</tr>
-<!---->
-<tr>
-    <td>
-        <center>
-        <a href="https://ItzSelenux.github.io/rofi-mint-themes"><br>
-        <img width="166px" src="res/projects/rofi-mint-themes.png"></a>
-        <figcaption>rofi-mint-themes</figcaption>
-        <center>
-    </td>
-    <td>
-     <h2>Linux Mint inspired themes for Rofi</h2>    
+     <h2>Screenshoter</h2>    
     </td>
 </tr>
 <!---->
 <tr>
     <td>
         <center>
-        <a href="https://ItzSelenux.github.io/selenux-wm-themes"><br>
-        <img width="166px" src="res/projects/selenux-wm-themes.png"> </a>
-        <figcaption>Selenux WM themes</figcaption>
+        <a href="https://ItzSelenux.github.io/selicam"><br>
+        <img width="90px" src="res/projects/cam.png"></a>
+        <figcaption>SeliCam(Not Available yet)</figcaption>
+        <center>
+    </td>
+    <td>
+     <h2>Camera</h2>    
+    </td>
+</tr>
+<!---->
+<tr>
+    <td>
+        <center>
+        <a href="https://ItzSelenux.github.io/selecalc"><br>
+        <img width="90px" src="res/projects/calc.png"> </a>
+        <figcaption>SeleCalc(Not Available yet)</figcaption>
         </center>
     </td>
     <td>
-    <h2>Set of Fluxbox/IceWM themes maked by me</h2>     
+    <h2>Calculator</h2>     
     </td>
 </tr>
 <!---->
 <tr>
     <td>
         <center>
-        <a href="https://ItzSelenux.github.io/slnxwm"><br>
-        <img width="166px" src="res/projects/slnxwm.png"> </a>
-        <figcaption>SlnxWM</figcaption>
+        <a href="https://ItzSelenux.github.io/selepanel"><br>
+        <img width="90px" src="res/projects/panel.png"> </a>
+        <figcaption>selepanel (Not Available yet)</figcaption>
         </center>
     </td>
     <td>
-    <h2>Personal fork of dwm, only has 4 patches!</h2>     
+    <h2>Simple panel with plugin support</h2>     
     </td>
 </tr>
 <!---->
 <tr>
     <td>
         <center>
-        <a href="https://ItzSelenux.github.io/tinyrepair"><br>
-        <img width="166px" src="res/projects/tinyrepair.png"> </a>
-        <figcaption>TinyRepair</figcaption>
+        <a href="https://ItzSelenux.github.io/seliarchiver"><br>
+        <img width="90px" src="res/projects/archiver.png"> </a>
+        <figcaption>SeliArchiver(Not Available yet)</figcaption>
         </center>
     </td>
     <td>
-    <h2>Personal remaster of TinyCore with system repair / file rescue utilities</h2>     
+    <h2>rar, zip, tar wrapper</h2>     
     </td>
 </tr>
 <!---->
 <tr>
     <td>
         <center>
-        <a href="https://ItzSelenux.github.io/vscode-lm-theme"><br>
-         <img width="166px" src="res/projects/vscode-lm-theme.png"> </a>
-         <figcaption>vscode-lm-theme</figcaption>
+        <a href="https://ItzSelenux.github.io/selerandr"><br>
+         <img width="90px" src="res/projects/selerandr.png"> </a>
+         <figcaption>selerandr</figcaption>
          </center>
     </td>
     <td>
-    <h2>Linux Mint inspired theme for Visual Studio Code</h2> 
+    <h2>Configure screen Resolutions, Refresh rate, rotate, on/off output and add custom resolutions</h2> 
+    </td>
+</tr>
+<!---->
+<tr>
+    <td>
+        <center>
+        <a href="https://ItzSelenux.github.io/seleburn"><br>
+        <img width="90px" src="res/projects/seleburn.png"> </a>
+        <figcaption>SeleBurn</figcaption>
+        </center>
+    </td>
+    <td>
+    <h2>create bootable devices</h2>     
     </td>
 </tr>
 </table>
     </center>
-    <br><br><br>
+    <br><br><br>    <br><br><br><br><br>
+    
 </body>
 </html>
