@@ -1,4 +1,4 @@
-body{background: #2a2a2a; color: #ffffff;}
+body{background: #1f1f1f; color: #ffffff;}
 *{padding: 0; margin: 0; text-decoration: none; list-style: none; box-sizing: border-box;}
 
   .wrapper
@@ -20,7 +20,7 @@ body{background: #2a2a2a; color: #ffffff;}
   {color: #fff}
 
   .github
-  {position: fixed; float: left; right: 160px; display: block; bottom: -19px}
+  {position: fixed; float: left; right: 160px; display: block; bottom: -20px}
 
   .code table tr
   {display: flex; border-radius: 9px; background-color: #1a1a1a; font-family: monospace;}

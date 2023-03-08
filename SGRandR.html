@@ -1,0 +1,106 @@
+<!--HEADERS-->
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css.css">
+<script src="bar.js"></script>
+<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<!--TITLE-->
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
+<title>SGRandR - Simple GTK Desktop Environment</title>
+</head>
+
+<!--NavBar-->
+<div inc="bar.html"></div>
+<script>includeHTML();</script>
+
+<div style="white-space: pre-wrap;" class="github>
+
+</div>
+
+<!--NavBar-->
+<div inc="bar.html"></div>
+<script>includeHTML();</script>
+
+<div style="white-space: pre-wrap;" class="github">
+<a class="github-button" href="https://github.com/SGDE/sgrandr/archive/HEAD.zip" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-icon="octicon-download" data-size="large" aria-label="Download SGDE/sgrandr on GitHub">Download</a> <a class="github-button" href="https://github.com/SGDE/sgrandr" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star SGDE/sgrandr on GitHub">Star</a> 
+<a class="github-button" href="https://github.com/SGDE/sgrandr/issues" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-icon="octicon-issue-opened" data-size="large" data-show-count="true" aria-label="Issue SGDE/sgrandr on GitHub">Issue</a> <a class="github-button" href="https://github.com/SGDE" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-size="large" data-show-count="true" aria-label="Follow @SGDE on GitHub">Follow @SGDE</a>
+   </div>
+   
+  <script>
+    function updateTime() {
+      var today = new Date();
+      var options = {hour: 'numeric', minute: 'numeric'};
+      var time = today.toLocaleTimeString([], options);
+      document.getElementById("time").innerHTML = time;
+    }
+    setInterval(updateTime, 1000); // update every second
+    
+    
+  </script>
+  
+<!--WebPage Content-->
+  <center>
+
+<br>
+    <img width="16%" height="1%" src="res/projects/SGrandr.png">
+    <h2>SGRandR</h2>
+       <hr color=#ffffff size="2.6" width="66%"><br>
+
+    
+     <p id="time"></p>
+     
+
+<h3>Configure screen Resolutions, Refresh rate, rotate, on/off output and add custom resolutions</h3> <br>
+<hr color=#ffffff size="2.6" width="66%"><br>
+<h2>Features: </h2>
+
+</center>
+<ul style="padding-left:36%;">
+    <li><input type="checkbox" checked disabled> Get a List of Resolutions and change the display resolution</li>
+    <li><input type="checkbox" checked disabled> Get a List of Refresh Rates and change display refresh rate</li>
+    <li><input type="checkbox" checked disabled> Change Refresh Rate list dynamically</li>
+    <li><input type="checkbox" checked disabled> Button to change Rotation of display</li>
+    <li><input type="checkbox" checked disabled> Slider to change scale of display</li>
+    <li><input type="checkbox" checked disabled> Get a List of output and on/off selected output</li>
+    <li><input type="checkbox" checked disabled> Change Position of Display if there is more than one display</li>
+    <li><input type="checkbox" checked disabled> Hide Output / Position options if there is only one output</li>
+    <li><input type="checkbox" checked disabled> Custom Resolution Creator</li>
+  <li><input type="checkbox" disabled> Change the list of Resolutions dynamically</li>
+</ul>
+<center>
+    <br><hr color=#ffffff size="2.6" width="66%"><br>
+    <h2>Download: </h2>
+    <h3>Clone the repo and build with make</h3> <br>
+    <table style="border-radius: 16px;min-width:33%;border-collapse:collapse; background-color:#161616;">
+    <td>
+    <pre>
+<code>
+git clone --depth 1 https://github.com/SGDE/sgrandr
+
+cd sgrandr
+    
+make
+</code>
+</pre>
+</td>
+<td></td>
+</table>
+<!---->
+<br><hr color=#ffffff size="2.6" width="66%"><br>
+<h2>Screenshots:</h2>
+
+<img width="30%" src="res/pages/sgrandr/1.webp">
+<img width="30%" src="res/pages/sgrandr/2.webp">
+<img width="30%" src="res/pages/sgrandr/5.webp">
+<img width="45%" src="res/pages/sgrandr/3.webp">
+<img width="50%" src="res/pages/sgrandr/4.webp">
+
+</table>
+    </center>
+    <br><br><br>    <br><br><br><br><br>
+    
+</body>
+</html>
